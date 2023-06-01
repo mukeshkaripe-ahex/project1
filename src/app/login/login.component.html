@@ -1,0 +1,23 @@
+<div class="login-container">
+    <div class="logo"> id at.
+    </div>
+<div class="description">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt minus quas minima rerum libero deleniti illo molestiae? Error doloribus ipsam, explicabo modi impedit ad, corrupti corporis debitis consequuntur minus libero.
+</div>
+</div>
+<div class="logn-form">
+    <div class="form-group">
+        <label for="username">Usename</label>
+        <input type="text" name="uname" [(ngModel)]="username"  class="form-control" />
+
+    </div>
+    <div class="form-group">
+        <label for="password">password</label>
+        <input type="password" name="pwords" class="form-controls"  [(ngModel)]="password" class="form-control"  />
+    </div>
+    <div style="color: red;" class="error">
+        {{errormsg}}
+    </div>
+   <div class="btn btn-success" (click)="login()" >login</div>
+
+</div>

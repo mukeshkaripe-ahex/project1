@@ -1,0 +1,16 @@
+.home-container{
+    display: flex;
+    .all-movies{
+        width: 75%;
+        min-height: calc(100vh - 80px);
+border-right: 2px solid blue;
+padding: 20px 40px;
+font-family: sans-serif;    
+}
+    .popular-movies{
+        width: 25%;
+        min-height: calc(100vh - 80px);
+        padding: 20px 40px;
+        font-family: sans-serif; 
+    }
+}
